@@ -1,0 +1,2 @@
+var app_src='https://cdn.hootsy.com/core/h-core.js';
+(function(){var w=window;var ht=w.Hootsy;if(typeof ht==="function"){ht('update',w.hootsySettings);}else{var d=document;var h=function(){h.c(arguments);};h.q=[];h.c=function(args){h.q.push(args);};w.Hootsy=h;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src=app_src;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
